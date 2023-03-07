@@ -1,0 +1,70 @@
+<html><head><title>PMD</title></head><body>
+<center><h3>PMD report</h3></center><center><h3>Problems found</h3></center><table align="center" cellspacing="0" cellpadding="3"><tr>
+<th>#</th><th>File</th><th>Line</th><th>Problem</th></tr>
+<tr bgcolor="lightgrey"> 
+<td align="center">1</td>
+<td width="*%">../../../TCA/TP1/TPDockerSampleApp/src/main/java/fr/esir/mdi/rest/SampleWebService.java</td>
+<td align="center" width="5%">30</td>
+<td width="*"><a href="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#unnecessaryconstructor">Avoid unnecessary constructors - the compiler will generate these for you</a></td>
+</tr>
+<tr> 
+<td align="center">2</td>
+<td width="*%">../../../TCA/TP1/TPDockerSampleApp/src/main/java/fr/esir/mdi/rest/SampleWebService.java</td>
+<td align="center" width="5%">30</td>
+<td width="*"><a href="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_documentation.html#uncommentedemptyconstructor">Document empty constructor</a></td>
+</tr>
+<tr bgcolor="lightgrey"> 
+<td align="center">3</td>
+<td width="*%">../../../TCA/TP1/TPDockerSampleApp/src/main/java/main/Main.java</td>
+<td align="center" width="5%">22</td>
+<td width="*"><a href="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#useutilityclass">All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.</a></td>
+</tr>
+<tr> 
+<td align="center">4</td>
+<td width="*%">../../../TCA/TP1/TPDockerSampleApp/src/main/java/main/Main.java</td>
+<td align="center" width="5%">61</td>
+<td width="*"><a href="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#forloopcanbeforeach">This for loop can be replaced by a foreach loop</a></td>
+</tr>
+<tr bgcolor="lightgrey"> 
+<td align="center">5</td>
+<td width="*%">../../../TCA/TP1/TPDockerSampleApp/src/main/java/main/Main.java</td>
+<td align="center" width="5%">77</td>
+<td width="*"><a href="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#closeresource">Ensure that resources like this InputStream object are closed after use</a></td>
+</tr>
+<tr> 
+<td align="center">6</td>
+<td width="*%">../../../TCA/TP1/TPDockerSampleApp/src/test/java/fr/ensai/projetWE/AppTest.java</td>
+<td align="center" width="5%">1</td>
+<td width="*"><a href="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#packagecase">Package name contains upper case characters</a></td>
+</tr>
+<tr bgcolor="lightgrey"> 
+<td align="center">7</td>
+<td width="*%">../../../TCA/TP1/TPDockerSampleApp/target/classes/java/fr/esir/mdi/rest/SampleWebService.java</td>
+<td align="center" width="5%">30</td>
+<td width="*"><a href="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#unnecessaryconstructor">Avoid unnecessary constructors - the compiler will generate these for you</a></td>
+</tr>
+<tr> 
+<td align="center">8</td>
+<td width="*%">../../../TCA/TP1/TPDockerSampleApp/target/classes/java/fr/esir/mdi/rest/SampleWebService.java</td>
+<td align="center" width="5%">30</td>
+<td width="*"><a href="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_documentation.html#uncommentedemptyconstructor">Document empty constructor</a></td>
+</tr>
+<tr bgcolor="lightgrey"> 
+<td align="center">9</td>
+<td width="*%">../../../TCA/TP1/TPDockerSampleApp/target/classes/java/main/Main.java</td>
+<td align="center" width="5%">22</td>
+<td width="*"><a href="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#useutilityclass">All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.</a></td>
+</tr>
+<tr> 
+<td align="center">10</td>
+<td width="*%">../../../TCA/TP1/TPDockerSampleApp/target/classes/java/main/Main.java</td>
+<td align="center" width="5%">61</td>
+<td width="*"><a href="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#forloopcanbeforeach">This for loop can be replaced by a foreach loop</a></td>
+</tr>
+<tr bgcolor="lightgrey"> 
+<td align="center">11</td>
+<td width="*%">../../../TCA/TP1/TPDockerSampleApp/target/classes/java/main/Main.java</td>
+<td align="center" width="5%">77</td>
+<td width="*"><a href="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#closeresource">Ensure that resources like this InputStream object are closed after use</a></td>
+</tr>
+</table></body></html>
