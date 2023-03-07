@@ -27,3 +27,30 @@ The program should take as input the path to the source code of the project. It 
 Include in this repository the code of your application. Remove all unnecessary files like compiled binaries. See the [instructions](../sujet.md) for suggestions on the projects to use.
 
 *Disclaimer* In a real project not all fields need to be accessed with a public getter.
+
+
+# Reponse 
+
+main.Main
+public static void main(String[] args) throws Exception
+public static BufferedImage drawNewImage(Mat original)
+public static Rect[] faceDetect(Mat image)
+public static BufferedImage toBufferedImage(Mat mat)
+servlet.HelloWorldApplication
+fr.esir.mdi.rest.SampleWebService
+public String fileSize(@FormDataParam("imageData") String f)
+public static String encodeToString(BufferedImage image, String type)
+main.Main
+public static void main(String[] args) throws Exception
+public static BufferedImage drawNewImage(Mat original)
+public static Rect[] faceDetect(Mat image)
+public static BufferedImage toBufferedImage(Mat mat)
+servlet.HelloWorldApplication
+fr.esir.mdi.rest.SampleWebService
+public String fileSize(@FormDataParam("imageData") String f)
+public static String encodeToString(BufferedImage image, String type)
+fr.ensai.projetWE.AppTest
+public static Test suite()
+public void testApp()
+
+Process finished with exit code 0
