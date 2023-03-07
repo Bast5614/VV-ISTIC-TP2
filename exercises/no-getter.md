@@ -52,5 +52,3 @@ public static String encodeToString(BufferedImage image, String type)
 fr.ensai.projetWE.AppTest
 public static Test suite()
 public void testApp()
-
-Process finished with exit code 0
