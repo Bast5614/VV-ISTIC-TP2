@@ -22,7 +22,7 @@ You can find more information on extending PMD in the following link: https://pm
 Use your rule with different projects and describe you findings below. See the [instructions](../sujet.md) for suggestions on the projects to use.
 
 ## Answer
-
+```
 <rule name="Avoid nested if statements" language="java">
   <description>
     This rule detects the use of three or more nested if statements.
@@ -43,5 +43,5 @@ Use your rule with different projects and describe you findings below. See the [
     //IfStatement[count(.//IfStatement) &gt;= 3]
   </xpath>
 </rule>
-
-[Screenshot_20230310_162454.png](Screenshot_20230310_162454.png)
+```
+[Screenshot_20230310_162454.png](..%2Fcode%2FExercise3%2FScreenshot_20230310_162454.png)
