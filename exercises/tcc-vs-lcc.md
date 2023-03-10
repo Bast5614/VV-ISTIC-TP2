@@ -35,4 +35,4 @@ class Point {
     }
 }
 Ici TCC=5/6 et LCC=6/6.
-Non LCC ne peux pas être plus petit de TCC car ils comptes les liens directe ET indirecte. Au mieux ils sont égaux. 
+Non LCC ne peux pas être plus petit de TCC car il compte les liens direct ET indirect. Au mieux ils sont égaux. 
