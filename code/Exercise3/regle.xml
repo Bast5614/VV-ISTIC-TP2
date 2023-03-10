@@ -1,0 +1,36 @@
+<rule name="Avoid nested if statements" language="java">
+    <description>
+        This rule detects the use of three or more nested if statements.
+    </description>
+    <priority>3</priority>
+    <example><![CDATA[
+    if (...) {
+      ...
+      if (...) {
+        ...
+        if (...) {
+          ....
+        }
+      }
+    }
+  ]]></example>
+    <xpath>
+        //IfStatement[count(.//IfStatement) >= 3]
+    </xpath>
+</rule>
+
+        public class TEST {
+
+        public String test(int num) {
+        if (num == 1) {
+        if (num == 2) {
+        if (num == 3) {
+        return "TEST3";
+        }
+        return "TEST2";
+        }
+        return "TEST1";
+        }
+        return "TEST";
+        }
+        }

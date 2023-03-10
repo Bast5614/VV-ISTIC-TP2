@@ -23,3 +23,25 @@ Use your rule with different projects and describe you findings below. See the [
 
 ## Answer
 
+<rule name="Avoid nested if statements" language="java">
+  <description>
+    This rule detects the use of three or more nested if statements.
+  </description>
+  <priority>3</priority>
+  <example><![CDATA[
+    if (...) {
+      ...
+      if (...) {
+        ...
+        if (...) {
+          ....
+        }
+      }
+    }
+  ]]></example>
+  <xpath>
+    //IfStatement[count(.//IfStatement) &gt;= 3]
+  </xpath>
+</rule>
+
+[Screenshot_20230310_162454.png](Screenshot_20230310_162454.png)
