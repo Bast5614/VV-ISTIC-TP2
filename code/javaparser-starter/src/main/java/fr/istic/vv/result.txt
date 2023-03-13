@@ -1,0 +1,2 @@
+La variable age de la class Person n'a pas de getter public
+La variable prenom de la class Person n'a pas de getter public

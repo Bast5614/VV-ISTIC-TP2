@@ -31,24 +31,9 @@ Include in this repository the code of your application. Remove all unnecessary 
 
 # Reponse 
 
-main.Main
-public static void main(String[] args) throws Exception
-public static BufferedImage drawNewImage(Mat original)
-public static Rect[] faceDetect(Mat image)
-public static BufferedImage toBufferedImage(Mat mat)
-servlet.HelloWorldApplication
-fr.esir.mdi.rest.SampleWebService
-public String fileSize(@FormDataParam("imageData") String f)
-public static String encodeToString(BufferedImage image, String type)
-main.Main
-public static void main(String[] args) throws Exception
-public static BufferedImage drawNewImage(Mat original)
-public static Rect[] faceDetect(Mat image)
-public static BufferedImage toBufferedImage(Mat mat)
-servlet.HelloWorldApplication
-fr.esir.mdi.rest.SampleWebService
-public String fileSize(@FormDataParam("imageData") String f)
-public static String encodeToString(BufferedImage image, String type)
-fr.ensai.projetWE.AppTest
-public static Test suite()
-public void testApp()
+Resultat obtenu : 
+La variable age de la class Person n'a pas de getter public
+La variable prenom de la class Person n'a pas de getter public
+
+Nous avons ajouté à la classe Person une autre variable "prenom" pour tester en cas de plusieurs attributs privé san getter.
+Code dans "Exercise 5"
